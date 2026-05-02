@@ -11,7 +11,7 @@ export class AuthService {                            // Service untuk autentika
 
     if (username === 'admin' && password === '123456') { // Validasi sederhana (hardcoded)
       return {
-        status: true,                                 // Status login berhasil
+        status: true,                                  // Status login berhasil
         message: 'Login berhasil',                    // Pesan sukses
         token: 'dummy-jwt-token-admin',               // Token dummy (belum JWT asli)
         user: {
